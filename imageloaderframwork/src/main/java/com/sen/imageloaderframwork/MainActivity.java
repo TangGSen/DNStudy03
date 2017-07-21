@@ -56,7 +56,9 @@ public class MainActivity extends AppCompatActivity {
         public void onBindViewHolder(MyViewHolder holder, int position)
         {
             //请求图片
+            holder.imageView.setTag(imageThumbUrls[position]);
             SimpleImageloader.getInstance().displayImage(holder.imageView, imageThumbUrls[position]);
+//            Glide.with(MainActivity.this).load().into();
         }
 
         @Override

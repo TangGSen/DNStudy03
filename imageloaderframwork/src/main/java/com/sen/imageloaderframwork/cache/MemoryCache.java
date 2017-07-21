@@ -2,6 +2,7 @@ package com.sen.imageloaderframwork.cache;
 
 import android.graphics.Bitmap;
 import android.support.v4.util.LruCache;
+import android.util.Log;
 
 import com.sen.imageloaderframwork.request.BitmapRequest;
 
@@ -14,7 +15,7 @@ public class MemoryCache implements BitmapCache {
 
     public MemoryCache(){
         //设置缓存大小为可用内存的8分之一
-        int menorySize = (int) (Runtime.getRuntime().freeMemory()/1024/8);
+        int menorySize = (int) (Runtime.getRuntime().maxMemory()/1024/8);
         mLruCache = new LruCache<String ,Bitmap>(menorySize){
             @Override
             protected int sizeOf(String key, Bitmap value) {
@@ -22,25 +23,25 @@ public class MemoryCache implements BitmapCache {
                 return value.getRowBytes()*value.getHeight();
             }
 
+
             @Override
             protected void entryRemoved(boolean evicted, String key, Bitmap oldValue, Bitmap newValue) {
                 super.entryRemoved(evicted, key, oldValue, newValue);
-//                oldValue.recycle();
-//                oldValue = null;
-               //
+
             }
         };
     }
 
     @Override
     public void put(BitmapRequest request, Bitmap bitmap) {
-        if (get(request)==null)
+
         mLruCache.put(request.getImageUriMD5(),bitmap);
+        Log.e("sen","put:"+mLruCache.size());
     }
 
     @Override
     public Bitmap get(BitmapRequest request) {
-
+        Log.e("sen","get:"+mLruCache.size());
         return mLruCache.get(request.getImageUriMD5());
     }
 

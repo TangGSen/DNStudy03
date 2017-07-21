@@ -67,10 +67,14 @@ public abstract class AbsctarctLoader implements Loader {
     }
 
     private void cacheBitmap(BitmapRequest bitmapRequest, Bitmap bitmap) {
+        Log.e("sen","cacheBitmap");
         if (bitmapCache != null && bitmap != null && bitmapRequest != null) {
             synchronized (AbsctarctLoader.class) {
+                Log.e("sen","bitmapCache is save");
                 bitmapCache.put(bitmapRequest, bitmap);
             }
+        }else{
+            Log.e("sen","bitmapCache is null");
         }
     }
 

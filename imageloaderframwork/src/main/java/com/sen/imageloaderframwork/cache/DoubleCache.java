@@ -2,6 +2,7 @@ package com.sen.imageloaderframwork.cache;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.util.Log;
 
 import com.sen.imageloaderframwork.request.BitmapRequest;
 
@@ -19,6 +20,7 @@ public class DoubleCache implements BitmapCache{
 
     @Override
     public void put(BitmapRequest request, Bitmap bitmap) {
+        Log.e("sen","memoryCache put");
         memoryCache.put(request,bitmap);
         diskCache.put(request,bitmap);
     }
