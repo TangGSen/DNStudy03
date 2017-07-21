@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DNSQL/DNSQL.iml" filepath="$PROJECT_DIR$/DNSQL/DNSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DNStudy03.iml" filepath="$PROJECT_DIR$/DNStudy03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchView/SearchView.iml" filepath="$PROJECT_DIR$/SearchView/SearchView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VolleyDongNao/VolleyDongNao.iml" filepath="$PROJECT_DIR$/VolleyDongNao/VolleyDongNao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/architecturedesign/architecturedesign.iml" filepath="$PROJECT_DIR$/architecturedesign/architecturedesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbachitetor/dbachitetor.iml" filepath="$PROJECT_DIR$/dbachitetor/dbachitetor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnimageloaderlaoshi/dnimageloaderlaoshi.iml" filepath="$PROJECT_DIR$/dnimageloaderlaoshi/dnimageloaderlaoshi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpservice/httpservice.iml" filepath="$PROJECT_DIR$/httpservice/httpservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloaderframwork/imageloaderframwork.iml" filepath="$PROJECT_DIR$/imageloaderframwork/imageloaderframwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+    </modules>
+  </component>
+</project>
