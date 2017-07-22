@@ -1,1 +1,1 @@
-include ':app', ':imageloaderframwork', ':DNSQL', ':dbachitetor', ':architecturedesign', ':httpservice', ':dnimageloaderlaoshi', ':SearchView', ':library', ':VolleyDongNao'
+include ':app', ':imageloaderframwork', ':DNSQL', ':dbachitetor', ':architecturedesign', ':httpservice', ':dnimageloaderlaoshi', ':SearchView', ':library', ':VolleyDongNao', ':rxjavaframework', ':xutilsframwork', ':DNIOC'

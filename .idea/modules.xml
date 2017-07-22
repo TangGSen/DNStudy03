@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DNIOC/DNIOC.iml" filepath="$PROJECT_DIR$/DNIOC/DNIOC.iml" />
       <module fileurl="file://$PROJECT_DIR$/DNSQL/DNSQL.iml" filepath="$PROJECT_DIR$/DNSQL/DNSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/DNStudy03.iml" filepath="$PROJECT_DIR$/DNStudy03.iml" />
       <module fileurl="file://$PROJECT_DIR$/SearchView/SearchView.iml" filepath="$PROJECT_DIR$/SearchView/SearchView.iml" />
@@ -13,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/httpservice/httpservice.iml" filepath="$PROJECT_DIR$/httpservice/httpservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageloaderframwork/imageloaderframwork.iml" filepath="$PROJECT_DIR$/imageloaderframwork/imageloaderframwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjavaframework/rxjavaframework.iml" filepath="$PROJECT_DIR$/rxjavaframework/rxjavaframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutilsframwork/xutilsframwork.iml" filepath="$PROJECT_DIR$/xutilsframwork/xutilsframwork.iml" />
     </modules>
   </component>
 </project>

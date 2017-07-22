@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DNIOC" />
             <option value="$PROJECT_DIR$/DNSQL" />
             <option value="$PROJECT_DIR$/SearchView" />
             <option value="$PROJECT_DIR$/VolleyDongNao" />
@@ -18,6 +19,8 @@
             <option value="$PROJECT_DIR$/httpservice" />
             <option value="$PROJECT_DIR$/imageloaderframwork" />
             <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/rxjavaframework" />
+            <option value="$PROJECT_DIR$/xutilsframwork" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
